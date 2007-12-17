@@ -16,7 +16,6 @@ Source0:	ftp://ftp.gnupg.org/gcrypt/%{Rname}/%{Rname}-%{version}.tar.gz
 Source1:	ftp://ftp.gnupg.org/gcrypt/%{Rname}/%{Rname}-%{version}.tar.gz.sig
 License:	GPL
 Group:		System/Libraries
-BuildRoot:	%{_tmppath}/%{Rname}-%{version}-%{release}-buildroot
 URL:		http://www.gnupg.org/gpgme.html 
 BuildRequires:	gnupg >= %{req_gnupg}
 
