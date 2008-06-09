@@ -68,8 +68,12 @@ rm -rf %buildroot
 %clean
 rm -rf %buildroot
 
+%if %mdkversion < 200900
 %post -n %{libname}_%{major} -p /sbin/ldconfig
+%endif
+%if %mdkversion < 200900
 %postun -n %{libname}_%{major} -p /sbin/ldconfig
+%endif
 
 %post -n %{libname}_%{major}-devel
 %_install_info %rname.info
