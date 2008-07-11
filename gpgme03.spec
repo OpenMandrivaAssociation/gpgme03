@@ -3,7 +3,7 @@
 %define release %mkrel %{rel} 
 %define Rname gpgme
  
-%define req_gnupg gnupg2-1.9.3
+%define req_gnupg_version gnupg2-1.9.3
 
 %define major 6
 %define libname %mklibname %name
@@ -18,7 +18,7 @@ License:	GPL
 Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{Rname}-%{version}-%{release}-buildroot
 URL:		http://www.gnupg.org/gpgme.html 
-BuildRequires:	gnupg >= %{req_gnupg}
+BuildRequires:	gnupg >= %{req_gnupg_version}
 
 %description
 GnuPG Made Easy (GPGME) is a library designed to make access to GnuPG
