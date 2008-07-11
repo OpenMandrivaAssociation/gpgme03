@@ -1,4 +1,4 @@
-%define rel 7
+%define rel 8
 %define version 0.3.16
 %define release %mkrel %{rel} 
 %define Rname gpgme
