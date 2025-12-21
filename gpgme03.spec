@@ -18,6 +18,11 @@ License:	GPL
 Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{Rname}-%{version}-%{release}-buildroot
 URL:		https://www.gnupg.org/gpgme.html 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gnupg >= %{req_gnupg_version}
 
 %description
