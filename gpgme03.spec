@@ -1,6 +1,6 @@
 %define rel 10
 %define version 0.3.16
-%define release %mkrel %{rel} 
+%define release %{rel}.1
 %define Rname gpgme
  
 %define req_gnupg_version gnupg2-1.9.3
